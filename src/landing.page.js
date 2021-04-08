@@ -1,7 +1,7 @@
 import React from "react";
 import auth from "./auth";
 
-function LandingPage(props) {
+export const LandingPage = (props) => {
   return (
     <div>
       <h1>Landing Page</h1>
@@ -16,6 +16,6 @@ function LandingPage(props) {
       </button>
     </div>
   );
-}
+};
 
 export default LandingPage;
